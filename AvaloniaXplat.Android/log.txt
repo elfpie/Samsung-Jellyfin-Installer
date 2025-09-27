@@ -1,0 +1,5 @@
+System.InvalidCastException: Specified cast is not valid.
+   at AvaloniaXplat.AndroidServices.Services.SamsungLoginActivity.SamsungWebViewClient.HandleCallbackUrl(String url) in /home/felipe/dev/AvaloniaXplat/AvaloniaXplat.AndroidServices/Services/SamsungLoginActivity.cs:line 85
+   at AvaloniaXplat.AndroidServices.Services.SamsungLoginActivity.SamsungWebViewClient.OnPageFinished(WebView view, String url) in /home/felipe/dev/AvaloniaXplat/AvaloniaXplat.AndroidServices/Services/SamsungLoginActivity.cs:line 56
+   at Android.Webkit.WebViewClient.n_OnPageFinished_Landroid_webkit_WebView_Ljava_lang_String_(IntPtr jnienv, IntPtr native__this, IntPtr native_view, IntPtr native_url) in /Users/runner/work/1/s/xamarin-android/src/Mono.Android/obj/Release/net9.0/android-35/mcw/Android.Webkit.WebViewClient.cs:line 226
+   at Android.Runtime.JNINativeWrapper.Wrap_JniMarshal_PPLL_V(_JniMarshal_PPLL_V callback, IntPtr jnienv, IntPtr klazz, IntPtr p0, IntPtr p1) in /Users/runner/work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNINativeWrapper.g.cs:line 198
